@@ -1,0 +1,13 @@
+{
+  "name": "help-hive-project",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:client": "npm --prefix ./client run dev",
+    "dev:admin": "npm --prefix ./client run dev",
+    "dev:backend": "npm --prefix ./server run dev",
+    "build:client": "npm --prefix ./client run build",
+    "build:admin": "npm --prefix ./client run build",
+    "start:backend": "npm --prefix ./server run start"
+  }
+}
